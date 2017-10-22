@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building...'
+                echo 'Building....'
 				sh "ls -ltra"
 				#sh "cmake ./CMakeLists.txt"
 				#sh "make -f Makefile"
