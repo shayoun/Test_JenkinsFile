@@ -5,13 +5,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building......'
+                echo 'Building...'
 				sh "ls -ltra"
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing....'
             }
         }
         stage('Deploy') {
