@@ -7,8 +7,6 @@ pipeline {
             steps {
                 echo 'Building....'
 				sh "ls -ltra"
-				#sh "cmake ./CMakeLists.txt"
-				#sh "make -f Makefile"
             }
         }
         stage('Test') {
